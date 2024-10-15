@@ -1,17 +1,15 @@
-style.css
-
 * {
 	box-sizing:border-box;
 }
 
 [class*="col"]{
 	float:left;
-	/* padding: 15px; */
+	padding: 15px; 
 }
 div {
 	border: double cornflowerblue;
   }
-
+  
 .row::after {
 	content:"";
 	clear:both;
@@ -93,9 +91,7 @@ div {
   }
   
   
-  div {
-	border: double rgb(0, 0, 1);
-  }
+  
   
   
   .wow {
