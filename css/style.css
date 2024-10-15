@@ -7,12 +7,102 @@ style.css
 [class*="col"]{
 	float:left;
 	/* padding: 15px; */
-
-
 }
+div {
+	border: double cornflowerblue;
+  }
 
 .row::after {
 	content:"";
 	clear:both;
 	display:block;
 }
+/* @keyframes gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+  }
+  
+  body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	color:#000000;
+  
+  } */
+  
+  table, th, td {
+	border:1px solid black;
+	}
+  
+  h1, h2, h3 {
+	font-family: "Berkshire Swash", sans-serif;
+	color:#caa151;
+	text-shadow: 3px 3px 3px #510321;
+	font-style:oblique;
+  /*font-size:30px; */
+  }
+  
+  p {
+	color:rgb(0, 0, 0);
+  }
+  
+  ul, ol,li, a {
+   color:rgb(5, 3, 0);
+  }
+  
+  legend, fieldset {
+	color: #000000;
+	/*color:rgb(8, 8, 8);*/
+	background-color: burlywood;
+	border: double #121212;
+  
+  }
+  
+  .rate {
+	color:rgb(134, 182, 224);
+  }
+  
+  .container {
+	column-width: 200px;
+  }
+  
+  .wrapper {
+	display: flex;
+  }
+  
+  .wrapper > div {
+	flex: 1;
+  }
+  
+  
+  
+  hr{
+	color: black;
+  }
+  span{
+	color: #e73c7e;}
+  figure{
+	margin-top: auto;
+  }
+  input{
+	background-color: #caa151;
+  }
+  fieldset{
+	color: bisque;
+  }
+  
+  
+  div {
+	border: double rgb(0, 0, 1);
+  }
+  
+  
+  .wow {
+	width: 100px;
+  }
+  
+  img {
+		-width: 100%;
+		height: auto;
+  }
